@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ab-testing"
+version = "0.1.0"
+description = ""
+authors = ["Andreas Klintberg <andreas.klintberg@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jupyterlab = "^4.1.6"
+statsmodels = "^0.14.1"
+pandas = "^2.2.2"
+seaborn = "^0.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
